@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <!-- 图标 -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/register.css">
+    <!-- 弹出提示插件 -->
+    <!-- <link rel="stylesheet" href="//unpkg.com/layui@2.6.8/dist/css/layui.css"> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="header-con">
+            <div class="logo">
+                <a href="./index1.html"><img src="../imgs/icon.png" alt="熊猫优选"></a>
+            </div>
+            <h2 class="hea-left">欢迎注册</h2>
+            <a href="#">
+                <h2 class="hea-right"><a href="./login.html">点击登录</a></h2>
+            </a>
+        </div>
+    </div>
+    <div id="container">
+        <div class="table">
+            <p>
+                <span>用户名 :</span>
+                <input type="text" id="user" placeholder="您的账户名和登录名">
+                <img src='../imgs/right.png'></img>
+            </p>
+            <i><img src='../imgs/error.png'></img></i>
+            <p>
+                <span>密码 :</span>
+                <input type="password" id="pwd1" placeholder="建议至少两种字符组合">
+                <img src='../imgs/right.png'></img>
+            </p>
+            <i><img src='../imgs/error.png'></img></i>
+            <p><span>确认密码 :</span>
+                <input type="password" id="pwd2" placeholder="请再次输入密码">
+                <img src='../imgs/right.png'></img>
+            </p>
+            <i><img src='../imgs/error.png'></img></i>
+            <p>
+                <span>邮箱 :</span>
+                <input type="email" id="email" placeholder="请输入邮箱 (选填)">
+                <img src='../imgs/right.png'></img>
+            </p>
+            <i><img src='../imgs/error.png'></img></i>
+            <p>
+                <span>电话 :</span>
+                <input type="text" id="phone" placeholder="请输入手机号">
+                <img src='../imgs/right.png'></img>
+            </p>
+            <i><img src='../imgs/error.png'></img></i>
+            <input type="checkbox" class="checked">
+            <div class="agree">
+                我已阅读并同意<a href="#" class="red">《熊猫优选用户注册协议》</a></div>
+            <div class="submit">注 册</div>
+        </div>
+    </div>
+</body>
+<script src="../lib/js/jquery.min.js"></script>
+<script src="../js/register.js"></script>
+<!-- 弹出提示插件 -->
+<script src="//unpkg.com/layui@2.6.8/dist/layui.js"></script>
+
+</html>

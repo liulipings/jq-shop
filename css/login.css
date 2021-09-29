@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin: 10px 40px 0 0;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.hea-box {
+    width: 300px;
+    height: 90px;
+    margin-top: 20px;
+    float: left;
+}
+
+.hea-box h2 {
+    height: 40px;
+    line-height: 50px;
+}
+
+.hea-box p {
+    font-size: 12px;
+}
+
+.hea-right {
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border-left: 1px solid #999;
+    float: right;
+    padding-left: 20px;
+    margin-top: 36px;
+    font-weight: bolder;
+}
+
+.hea-right a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 内容 main 区域 */
+
+#main {
+    width: 1200px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+.m-left {
+    float: left;
+}
+
+.m-right {
+    float: left;
+    width: 400px;
+    height: 700px;
+    padding: 0 100px;
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    overflow: hidden;
+    /* background: skyblue; */
+}
+
+.login p {
+    width: 400px;
+}
+
+.login p:nth-child(1) {
+    width: 400px;
+    height: 30px;
+    margin: 40px 0 50px;
+}
+
+.login p:nth-child(1) span {
+    display: inline-block;
+    width: 199px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 26px;
+    cursor: pointer;
+    border-right: 2px solid #ccc;
+}
+
+.login p:nth-child(1) span:hover {
+    color: #f56600;
+}
+
+input {
+    font-size: 16px;
+    width: 356px;
+    height: 50px;
+    padding-left: 40px;
+    outline: none;
+    margin-top: 20px;
+}
+
+.login p:nth-child(4) {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.login p:nth-child(4) input {
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+.login p:nth-child(4) span {
+    float: left;
+    color: #999;
+    font-size: 14px;
+}
+
+.tijiao {
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    background: #f78331;
+    margin: 20px 0 20px 100px;
+    cursor: pointer;
+}
+
+.txt {
+    width: 400px;
+    height: 20px;
+    /* background: skyblue; */
+    font-size: 14px;
+}
+
+.txt span {
+    float: right;
+}
+
+.txt span a {
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    color: #999;
+}
+
+.txt span a:hover {
+    color: #f56600;
+}
+
+
+/* 其他方式登录 */
+
+.other {
+    width: 400px;
+    height: 100px;
+    margin-top: 30px;
+    overflow: hidden;
+    /* background: steelblue; */
+}
+
+.other p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
+
+.other p:nth-child(2) {
+    display: flex;
+}
+
+.other p i {
+    font-size: 26px !important;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/* 底部 footer */
+
+#footer {
+    width: 1200px;
+    height: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background: skyblue; */
+    text-align: center;
+}
+
+.f-txt {
+    width: 400px;
+    height: 20px;
+    margin: 120px 0 20px 400px;
+}
+
+.f-txt li {
+    padding: 0 10px;
+    height: 20px;
+    list-style: none;
+    float: left;
+    border-right: 2px solid #ccc;
+}
+
+.f-txt a {
+    color: #999;
+}
+
+.copyright {
+    color: rgb(102, 101, 101);
+}

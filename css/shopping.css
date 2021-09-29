@@ -1,0 +1,483 @@
+/* 顶部 */
+
+#top {
+    width: 100%;
+    height: 30px;
+    background: #f1f1f1;
+}
+
+.top-con {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.t-left {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    /* text-align: center; */
+}
+
+.t-left a {
+    padding: 0 10px;
+}
+
+.t-left a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.t-left i {
+    font-size: 16px;
+    color: red;
+}
+
+.t-left span {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.top-con ul {
+    width: 630px;
+    height: 30px;
+    /* background: skyblue; */
+    float: right;
+    font-size: 12px;
+}
+
+.top-con ul>li {
+    margin-top: 8px;
+    padding: 0 15px;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    border-right: 1px solid rgb(46, 45, 45);
+}
+
+.slide dd {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    background: #f1f1f1;
+    display: none;
+}
+
+.blue {
+    color: #28a3ef;
+}
+
+.top-con ul a:hover {
+    text-decoration: underline;
+}
+
+
+/* 头部 */
+
+#header {
+    width: 1200px;
+    height: 110px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.logo img {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+#header h2 {
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-right: 160px;
+    color: #43200c;
+    float: left;
+}
+
+#header .search {
+    width: 540px;
+    height: 60px;
+    margin-top: 40px;
+}
+
+#header .ipt {
+    width: 540px;
+    height: 36px;
+    border: 1px solid #c81523;
+}
+
+#header .ipt input {
+    padding-left: 20px;
+    width: 420px;
+    height: 36px;
+    border: none;
+    outline: none;
+}
+
+#header .ipt span {
+    display: block;
+    float: right;
+    width: 100px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    background: #c81523;
+    color: white;
+    cursor: pointer;
+}
+
+#header ul {
+    width: 440px;
+    height: 26px;
+}
+
+#header ul li {
+    float: left;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+#header ul li:hover {
+    color: #c81523;
+}
+
+#header .cart {
+    cursor: pointer;
+    font-size: 14px;
+    display: block;
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: 1px solid #ccc;
+    background: #f1f1f1;
+    margin: 25px 0 0 80px;
+}
+
+#header .cart:hover {
+    border: 1px solid #c81523;
+}
+
+
+/* nav区域 */
+
+#nav {
+    width: 100%;
+    height: 45px;
+    border-bottom: 3px solid #c81523;
+}
+
+.nav-con {
+    width: 1200px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+.nav-con li {
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #c81523;
+    color: white;
+    font-size: 20px;
+}
+
+
+/* 购物车商品 */
+
+#main {
+    width: 1200px;
+    margin: auto;
+}
+
+.m-top {
+    width: 1200px;
+    height: 40px;
+    background: #ccc;
+}
+
+.m-top li {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+
+/* 商品信息 */
+
+.m-top li:nth-child(1) {
+    width: 500px;
+}
+
+.m-top li:nth-child(1) label {
+    display: block;
+    width: 60px;
+    height: 40px;
+    float: left;
+    /* background: skyblue; */
+}
+
+.m-top li:nth-child(1) input {
+    width: 20px;
+    height: 20px;
+    margin-left: -8px;
+    margin-top: 10px;
+}
+
+
+/* 商品规格 */
+
+.m-top li:nth-child(2) {
+    width: 180px;
+}
+
+
+/* 单价 */
+
+.m-top li:nth-child(3) {
+    width: 100px;
+}
+
+
+/* 数量 */
+
+.m-top li:nth-child(4) {
+    width: 200px;
+}
+
+
+/* 小计 */
+
+.m-top li:nth-child(5) {
+    width: 120px;
+}
+
+
+/* 删除 */
+
+.m-top li:nth-child(6) {
+    width: 100px;
+}
+
+.m-goods {
+    width: 1200px;
+    height: 100px;
+    padding: 10px 0;
+    background: white;
+    border-bottom: 1px solid #ccc;
+}
+
+.m-goods label {
+    display: block;
+    width: 60px;
+    height: 100px;
+    float: left;
+}
+
+.m-goods input {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+    margin-top: 40px;
+}
+
+.m-goods img {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+    float: left;
+}
+
+
+/* 商品信息 */
+
+.m-goods .msg1 {
+    width: 260px;
+    height: 60px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 50px;
+    color: #333;
+}
+
+
+/* 商品规格 */
+
+.m-goods .msg2 {
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+
+/* 单价 */
+
+.m-goods .price {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+
+/* 数量 */
+
+.m-goods .num {
+    width: 130px;
+    margin: 36px 30px 0 40px;
+}
+
+
+/* 减 */
+
+.num .sub,
+.num .add {
+    width: 26px;
+    height: 26px;
+}
+
+.num .count {
+    width: 60px;
+    height: 26px;
+}
+
+
+/* 小计 */
+
+.m-goods .sum {
+    width: 120px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+/* 删除 */
+
+.m-goods .remove {
+    width: 100px;
+    height: 100px;
+}
+
+.remove .del {
+    width: 60px;
+    height: 30px;
+    margin: 35px 0 0 20px;
+    cursor: pointer;
+}
+
+
+/* 全选 总计 */
+
+.m-pay {
+    width: 1200px;
+    height: 40px;
+    padding-top: 10px;
+    background: #f1f1f1;
+}
+
+.m-pay button {
+    padding: 2px 10px;
+    cursor: pointer;
+}
+
+.numb {
+    width: 100px;
+    line-height: 34px;
+    margin-left: 350px;
+}
+
+.numb i {
+    font-size: 20px;
+    color: red;
+    padding: 0 10px;
+}
+
+.pay-right {
+    width: 400px;
+}
+
+.pay-right .allPrices {
+    color: red;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+/* 结算 */
+
+.m-closing {
+    padding-top: 20px;
+    width: 1200px;
+    height: 180px;
+    background: white;
+}
+
+.m-closing a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+    background: #f1f1f1;
+    border: 1px solid #ccc;
+    float: left;
+    /* margin-left: 50px; */
+}
+
+
+/* .m-closing span */
+
+#ggg {
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #999;
+    color: white;
+    float: right;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+
+/* 购物车为空时显示的图片 */
+
+.emptyCart {
+    position: relative;
+    margin-left: 200px;
+    width: 800px;
+    height: 350px;
+    display: none;
+}
+
+.goHome {
+    position: absolute;
+    bottom: 100px;
+    left: 560px;
+    /* display: block; */
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 24px;
+    color: white;
+    background: #c81523;
+    border-radius: 5px;
+}

@@ -1,0 +1,444 @@
+/* 顶部 */
+
+#top {
+    width: 100%;
+    height: 30px;
+    background: #f1f1f1;
+}
+
+.top-con {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.t-left {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    /* text-align: center; */
+}
+
+.t-left a {
+    padding: 0 10px;
+}
+
+.t-left a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.t-left i {
+    font-size: 16px;
+    color: red;
+}
+
+.t-left span {
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.top-con ul {
+    width: 540px;
+    height: 30px;
+    /* background: skyblue; */
+    float: right;
+    font-size: 12px;
+}
+
+.top-con ul>li {
+    margin-top: 8px;
+    padding: 0 15px;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    border-right: 1px solid rgb(46, 45, 45);
+}
+
+.slide dd {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    background: #f1f1f1;
+    display: none;
+}
+
+.blue {
+    color: #28a3ef;
+}
+
+.top-con ul a:hover {
+    text-decoration: underline;
+}
+
+
+/* 头部 */
+
+#all {
+    width: 100%;
+    height: 140px;
+    background: white;
+    z-index: 999;
+}
+
+#header {
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.hea-left {
+    width: 340px;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.hea-left img {
+    width: 100px;
+    height: 100px;
+    margin-right: 40px;
+    float: left;
+}
+
+.hea-left h2 {
+    margin: 14px 40px 0px 0;
+    font-size: 40px;
+    color: #43200c;
+}
+
+
+/* 搜索框 */
+
+.search {
+    width: 560px;
+    height: 100px;
+    /* background: skyblue; */
+}
+
+.s-box {
+    width: 450px;
+    height: 46px;
+    border: 2px solid #43200c;
+    border-radius: 30px;
+    margin: 40px 0 0 100px;
+    /* background: seagreen; */
+}
+
+.s-box img {
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+    float: left;
+}
+
+.s-box input {
+    width: 240px;
+    height: 26px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+.s-box span {
+    cursor: pointer;
+    display: block;
+    width: 128px;
+    height: 40px;
+    text-align: center;
+    line-height: 36px;
+    background-color: #fee44e;
+    color: #43200c;
+    border-radius: 30px;
+    margin-top: 5px;
+    float: right;
+    margin: 3px 3px 0 0;
+}
+
+.hea-right {
+    width: 280px;
+    height: 80px;
+    font-size: 12px;
+    float: right;
+    margin-top: 34px;
+}
+
+.hea-right p {
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.hea-right img {
+    margin-bottom: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.hea-right span {
+    display: block;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/* nav */
+
+#nav {
+    width: 100%;
+    height: 46px;
+    background: #43200c;
+}
+
+.nav-con {
+    width: 1200px;
+    height: 46px;
+    margin: 0 auto;
+}
+
+.nav-con li {
+    width: 220px;
+    line-height: 46px;
+    text-align: center;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+
+.nav-con li:hover {
+    background: yellow;
+    color: black;
+}
+
+.nav-con li:first-child {
+    background: yellow;
+    color: black;
+}
+
+
+/* 内容区域 轮播 */
+
+#banner {
+    width: 1200px;
+    height: 434px;
+    margin: 0 auto;
+    background: #f6f6f6;
+}
+
+.b-left {
+    width: 220px;
+}
+
+.b-left li {
+    width: 220px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 14px;
+    cursor: pointer;
+    background: rgb(241, 241, 207);
+}
+
+.b-left li:hover {
+    background: white;
+    color: red;
+}
+
+.b-right {
+    width: 970px;
+}
+
+.banner {
+    width: 690px;
+}
+
+.b-right img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner-m1 {
+    width: 258px;
+    margin-left: 20px;
+}
+
+
+/* .banner-m2 {} */
+
+
+/* 每天更新文本 */
+
+.days {
+    width: 1200px;
+    height: 54px;
+    line-height: 54px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.days span:nth-child(1) {
+    display: block;
+    width: 200px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    float: left;
+}
+
+.days span:nth-child(2) {
+    font-size: 14px;
+    color: #999;
+}
+
+
+/* 商品展示区域 */
+
+#goods {
+    width: 1180px;
+    margin: 10px auto;
+    padding-left: 20px;
+}
+
+#goods img {
+    width: 275px;
+    height: 275px;
+    cursor: pointer;
+}
+
+#goods img:hover {
+    opacity: .8;
+}
+
+#goods>div {
+    width: 275px;
+    height: 380px;
+    background: white;
+    margin: 0 20px 20px 0;
+    float: left;
+}
+
+#goods .g-text {
+    width: 275px;
+    height: 85px;
+}
+
+.g-text p {
+    width: 255px;
+    padding: 0 10px;
+}
+
+.g-text p:nth-child(1) {
+    height: 24px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #666;
+    /* 超出部分文本显示三个点 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.g-text p:nth-child(2) {
+    padding: 10px 10px;
+    height: 24px;
+    background: white;
+}
+
+.g-text p:nth-child(2) span:nth-child(1) {
+    display: block;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    float: left;
+    background: rgb(236, 49, 49);
+}
+
+.g-text p:nth-child(2) span:nth-child(2) {
+    font-size: 14px;
+    color: #666;
+    float: right;
+    margin-right: 20px;
+}
+
+.g-text p:nth-child(3) {
+    height: 30px;
+}
+
+.g-text p:nth-child(3) span:nth-child(1) {
+    /* margin-right: 4px; */
+    font-size: 24px;
+    color: red;
+}
+
+.g-text p:nth-child(3) span:nth-child(2) {
+    font-size: 12px;
+    color: #666;
+}
+
+.g-text p:nth-child(3) span:nth-child(3) {
+    display: block;
+    float: right;
+    font-size: 12px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 2px;
+    border: 1px solid red;
+    margin: 4px 8px 0 0;
+    cursor: pointer;
+}
+
+.g-text p:nth-child(3) span:nth-child(3):hover {
+    background: red;
+    color: white;
+}
+
+
+/* 查看更多 */
+
+#mores {
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#mores .look {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 5px;
+    background: yellow;
+    cursor: pointer;
+    margin: 70px auto;
+}
+
+
+/* 底部footer */
+
+
+/* 回到顶部 */
+
+.calltop {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: yellow;
+    color: red;
+    cursor: pointer;
+    display: none;
+}
